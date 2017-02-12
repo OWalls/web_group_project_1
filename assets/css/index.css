@@ -2,7 +2,156 @@ body {
   margin: 0;
 }
 
+title{
+  float:left;
+  width:25%;
+}
+nav{
+height: 80px;
+  width: auto;
 
+}
+nav h1 {
+  float: left;
+  display: inline;
+  color:#323232
+  font-size: 1.5em;
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  padding-left: 15px;
+}
+nav p{
+  float:right;
+  width: 15%;
+  display: inline;
+  font-size: .9em;
+  word-spacing: 20px;
+  text-transform: uppercase;
+  color:#323232;
+  font-family: 'PT Sans Narrow Regular', sans-serif;
+  padding-top: 10px;
+}
+.splash{
+  background-image:url(../../assets/images/kats-hero.jpg);
+  display: block;
+  width: auto;
+  height: 559px;
+}
+.main h1{
+  text-align: center;
+  font-size: 1.875em;
+  color: #323232
+}
+h1{
+  font-size: 1.875em;
+  color: #323232
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+}
+h2{
+  color:#00897f;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+}
+.frst-par{
+  width: 60%;
+  font-weight:normal;
+  font-family: 'PT Serif Regular', serif;
+}
+h3{
+  /*width: 75%;*/
+  margin: auto;
+  font-size: 1.5em;
+  color: #323232
+  font-weight:normal;
+  font-family: 'PT Serif Regular', serif;
+}
+p{
+  font-size: .875em;
+  line-height: 1.75em;
+  color: #323232;
+}
+.container{
+height: 400px;
+}
+.section1{
+
+}
+.section2a {
+  float: left;
+  width:16%;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 350px;
+  padding-left: 30px;
+  padding-right: 60px;
+  background-color: #eeeeee;
+}
+ .section2b {
+  float: right;
+  width:16%;
+  display: inline-block;
+  margin-top: 80px;
+  margin-right: 350px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #eeeeee;
+}
+.section3{
+  margin: auto;
+  text-align: center;
+}
+.img-circle{
+  border-radius: 50%;
+  [remote "origin"]
+          url = https://github.com/OWalls/OWalls.github.io.git
+          fetch = +refs/heads /*:refs/remotes/origin/*/
+
+
+}
+.section4{
+  background-color: #eeeeee;
+  height: 310px;
+  text-align: center;
+}
+.section4 h1{
+  margin-bottom: 45px;
+  margin-top: 80px;
+}
+.section4a{
+  float: left;
+  width:25%;
+  display: inline-block;
+  margin-left: 290px;
+  background-color: #fff;
+  padding-right: 60px;
+  margin-bottom: 80px;
+}
+.section4b{
+  float: right;
+  width:25%;
+  display: inline-block;
+  margin-right: 290px;
+  background-color: #fff;
+  margin-bottom: 80px;
+}
+span.up{
+    text-transform: uppercase;
+}
+.section5{
+  background-image:url('../../assets/images/kats-map.jpg');
+  height: 400px;
+}
+
+footer{
+  background-color:#00897f;
+  height: 125px;
+}
+footer h1{
+  text-align: center;
+  color: #fff;
+  font-size: 1.25em;
+  padding-top: 3em;
+}
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
