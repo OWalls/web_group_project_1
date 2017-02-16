@@ -9,7 +9,10 @@ title{
 nav{
 height: 80px;
   width: auto;
-
+}
+nav a{
+  text-decoration: none;
+  color:#323232;
 }
 nav h1 {
   float: left;
@@ -19,9 +22,9 @@ nav h1 {
   font-family: 'PT Sans Narrow Bold', sans-serif;
   padding-left: 15px;
 }
-nav p{
+nav ul{
   float:right;
-  width: 15%;
+  width: 25%;
   display: inline;
   font-size: .9em;
   word-spacing: 20px;
@@ -29,7 +32,13 @@ nav p{
   color:#323232;
   font-family: 'PT Sans Narrow Regular', sans-serif;
   padding-top: 10px;
+  text-decoration: none;
 }
+nav ul li{
+  display: inline;
+  text-decoration: none;
+}
+
 .splash{
   background-image:url(../../assets/images/kats-hero.jpg);
   display: block;
@@ -81,7 +90,7 @@ height: 400px;
   width:16%;
   display: inline-block;
   margin-top: 80px;
-  margin-left: 350px;
+  margin-left: 340px;
   padding-left: 30px;
   padding-right: 60px;
   background-color: #eeeeee;
@@ -91,7 +100,7 @@ height: 400px;
   width:16%;
   display: inline-block;
   margin-top: 80px;
-  margin-right: 350px;
+  margin-right: 340px;
   padding-right: 30px;
   padding-left: 30px;
   background-color: #eeeeee;
@@ -99,6 +108,7 @@ height: 400px;
 .section3{
   margin: auto;
   text-align: center;
+  padding-bottom: 80px;
 }
 .img-circle{
   border-radius: 50%;
@@ -112,10 +122,11 @@ height: 400px;
   background-color: #eeeeee;
   height: 310px;
   text-align: center;
+  padding-top: 80px;
 }
 .section4 h1{
   margin-bottom: 45px;
-  margin-top: 80px;
+  /*margin-top: 80px;*/
 }
 .section4a{
   float: left;
