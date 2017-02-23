@@ -1,0 +1,146 @@
+/* On devices smaller than 660px */
+@media(max-width: 600px ){
+  nav{
+
+  }
+}
+/* On devices wider than 501px and smaller than 750 px*/
+@media(min-width: 501px ) and (max-width: 758px){
+
+  .img-circle:last-child{
+    display: none;
+  }
+}
+  /* On devices wider than 930px */
+@media(min-width: 930px) {
+  .section2{
+    height: auto;
+  }
+  .container{
+    margin: 80 auto;
+    width: 45%;
+    height: 250px;
+  }
+  .section2a, .section2b{
+    padding: 10px;
+  }
+  .section2a {
+    float: left;
+    width:40%;
+    display: inline-block;
+    background-color: #eeeeee;
+    margin:auto;
+    margin: 0 30px 0 auto;
+  }
+  .section2b {
+   float: right;
+   width:40%;
+   display: inline-block;
+   background-color: #eeeeee;
+   margin: 0 auto 0 30px;
+   /*margin: 0 auto 0 30px; */
+ }
+ .section3{
+   height: auto;
+   margin: auto;
+   text-align: center;
+   /*padding-top: 80px;*/
+   padding-bottom: 80px;
+ }
+
+ .container2{
+   margin: auto;
+   width: 45%;
+ }
+ .section4{
+ padding-bottom: 80px;
+ }
+ .section4a, .section4b{
+   padding: 10px;
+ }
+ .section4a{
+   float: left;
+   width:40%;
+   display: inline-block;
+   background-color: #fff;
+   margin: 0 30px 0 auto;
+ }
+ .section4b{
+   float: right;
+   width:40%;
+   display: inline-block;
+   background-color: #fff;
+   margin: 0 auto 0 30px;
+ }
+ /* On devices wider than 930px and smaller than 1115 px*/
+@media(min-width: 930px ) and (max-width: 1115px)
+nav h1 {
+  float: left;
+  display: inline;
+  color:#323232
+  font-size: 1.5em;
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  padding-left: 15px;
+}
+nav ul{
+  float:right;
+  width: 25%;
+  display: block;
+  display: inline;
+  font-size: .9em;
+  word-spacing: 20px;
+  text-transform: uppercase;
+  color:#323232;
+  font-family: 'PT Sans Narrow Regular', sans-serif;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+
+
+    .section2{
+      height: auto;
+    }
+    .container{
+      margin: 80 auto;
+      width: 50%;
+      height: 250px;
+    }
+    .section2a, .section2b{
+      padding: 10px;
+    }
+    .section2a {
+      float: left;
+      width:38%;
+      display: inline-block;
+      background-color: #eeeeee;
+      margin:auto;
+      margin: 0 30px 0 auto;
+    }
+    .section2b {
+     float: right;
+     width:38%;
+     display: inline-block;
+     background-color: #eeeeee;
+     margin: 0 auto 0 30px;
+     /*margin: 0 auto 0 30px; */
+    }
+    .container2{
+      margin: auto;
+      width: 50%;
+    }
+    .section4a{
+      float: left;
+      width:38%;
+      display: inline-block;
+      background-color: #fff;
+      margin: 0 30px 0 auto;
+    }
+    .section4b{
+      float: right;
+      width:38%;
+      display: inline-block;
+      background-color: #fff;
+      margin: 0 auto 0 30px;
+    }
+}
